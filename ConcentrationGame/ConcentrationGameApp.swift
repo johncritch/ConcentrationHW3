@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct ConcentrationHW3App: App {
+struct ConcentrationGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ConcentrationGameView(emojiGame: EmojiConcentrationGame())
         }
     }
 }
